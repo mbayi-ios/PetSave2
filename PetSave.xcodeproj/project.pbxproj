@@ -36,6 +36,8 @@
 		84B0507826B0E8F500E0A709 /* AnimalContactLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0507726B0E8F500E0A709 /* AnimalContactLink.swift */; };
 		84B0507C26B0EFA800E0A709 /* AddressFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0507B26B0EFA800E0A709 /* AddressFetcher.swift */; };
 		84B0507E26B0F12200E0A709 /* AnimalDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0507D26B0F12200E0A709 /* AnimalDetailCard.swift */; };
+		896DAA0E29F6A63000AE86ED /* AccessTokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896DAA0D29F6A63000AE86ED /* AccessTokenManager.swift */; };
+		896DAA1029F6A78300AE86ED /* AppUserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896DAA0F29F6A78300AE86ED /* AppUserDefaultsKeys.swift */; };
 		89F7028429F2B9DF00F38AFD /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F7028329F2B9DF00F38AFD /* Animal.swift */; };
 		89F7028629F2BB8300F38AFD /* AnimalsMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F7028529F2BB8300F38AFD /* AnimalsMock.swift */; };
 		89F7028929F2C61800F38AFD /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F7028829F2C61800F38AFD /* RequestProtocol.swift */; };
@@ -114,6 +116,8 @@
 		84B0507726B0E8F500E0A709 /* AnimalContactLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalContactLink.swift; sourceTree = "<group>"; };
 		84B0507B26B0EFA800E0A709 /* AddressFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressFetcher.swift; sourceTree = "<group>"; };
 		84B0507D26B0F12200E0A709 /* AnimalDetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailCard.swift; sourceTree = "<group>"; };
+		896DAA0D29F6A63000AE86ED /* AccessTokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenManager.swift; sourceTree = "<group>"; };
+		896DAA0F29F6A78300AE86ED /* AppUserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserDefaultsKeys.swift; sourceTree = "<group>"; };
 		89F7028329F2B9DF00F38AFD /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		89F7028529F2BB8300F38AFD /* AnimalsMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsMock.swift; sourceTree = "<group>"; };
 		89F7028829F2C61800F38AFD /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
@@ -273,6 +277,14 @@
 			path = views;
 			sourceTree = "<group>";
 		};
+		896DAA0C29F6A5EE00AE86ED /* token */ = {
+			isa = PBXGroup;
+			children = (
+				896DAA0D29F6A63000AE86ED /* AccessTokenManager.swift */,
+			);
+			path = token;
+			sourceTree = "<group>";
+		};
 		89F7028729F2C60500F38AFD /* request */ = {
 			isa = PBXGroup;
 			children = (
@@ -403,6 +415,7 @@
 			children = (
 				84B0507B26B0EFA800E0A709 /* AddressFetcher.swift */,
 				8472DFAA26BF66EF000FEDAF /* LocationManager.swift */,
+				896DAA0F29F6A78300AE86ED /* AppUserDefaultsKeys.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -419,6 +432,7 @@
 		AE6A377B269B56460054C842 /* api */ = {
 			isa = PBXGroup;
 			children = (
+				896DAA0C29F6A5EE00AE86ED /* token */,
 				89F7029B29F2DF4B00F38AFD /* model */,
 				89F7029329F2CE4D00F38AFD /* parser */,
 				89F7028C29F2C9B000F38AFD /* network */,
@@ -699,10 +713,12 @@
 				8FDD2CA326B311AC00DBE33F /* Pagination.swift in Sources */,
 				89F7028429F2B9DF00F38AFD /* Animal.swift in Sources */,
 				845137A82796247E00A4DA57 /* EmptyResultsView.swift in Sources */,
+				896DAA0E29F6A63000AE86ED /* AccessTokenManager.swift in Sources */,
 				8472DFCC26BF93B3000FEDAF /* AnimalsNearYouView.swift in Sources */,
 				89F7029E29F2E1CA00F38AFD /* AnimalsRequest.swift in Sources */,
 				84A59F7C269E92F800237A83 /* APIColors.swift in Sources */,
 				AE6A380E269B5DA90054C842 /* Breed.swift in Sources */,
+				896DAA1029F6A78300AE86ED /* AppUserDefaultsKeys.swift in Sources */,
 				84A59F76269E8DF000237A83 /* VideoLink.swift in Sources */,
 				84B0507426B0E45000E0A709 /* AnimalLocationView.swift in Sources */,
 				845137A62796247E00A4DA57 /* SuggestionsGrid.swift in Sources */,
